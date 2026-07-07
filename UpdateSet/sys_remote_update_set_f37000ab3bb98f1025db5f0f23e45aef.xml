@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-07-06 10:03:07">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Visitor Management">dc7e30d63bb5471025db5f0f23e45a8a</application>
+<application_name>Visitor Management</application_name>
+<application_scope>x_1958858_visito_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>Default</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>147e70d63bb5471025db5f0f23e45a42</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-06 10:03:05</sys_created_on>
+<sys_id>f37000ab3bb98f1025db5f0f23e45aef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-06 10:03:05</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_63f1a53377451110cd1b756f1b5a9991</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Captures the last execution timestamp of the scheduled job 'Surface New Unconnected Content of Categories'</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>taxonomy.category.new_content_job_last_run</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-08 07:43:25</sys_created_on><sys_id>63f1a53377451110cd1b756f1b5a9991</sys_id><sys_mod_count>20</sys_mod_count><sys_name>taxonomy.category.new_content_job_last_run</sys_name><sys_package display_value="Content Taxonomy" source="com.snc.taxonomy">8153be0218ba32108bb255f46a373ad1</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_63f1a53377451110cd1b756f1b5a9991</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-05 07:00:28</sys_updated_on><type>date_format</type><value>2026-07-05</value><write_roles>maint</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=63f1a53377451110cd1b756f1b5a9991"/></record_update>]]></payload>
+<payload_hash>-412796055</payload_hash>
+<remote_update_set display_value="Default">f37000ab3bb98f1025db5f0f23e45aef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-06 10:03:05</sys_created_on>
+<sys_id>3b7000ab3bb98f1025db5f0f23e45af0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19f31141fa40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-06 10:03:05</sys_updated_on>
+<table/>
+<target_name>taxonomy.category.new_content_job_last_run</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>1b1dc2c3027dcb10f75da7f7fd6f4869</update_guid>
+<update_guid_history>1b1dc2c3027dcb10f75da7f7fd6f4869:-412796055,cb4a82bc9979cf141f1405d301223e30:-1656357433,9607426a0cad8fd00491c6951d9e558a:-466670098,45e34214c1e18f90a4ef6f2840a7f725:-2888054,3dd00ecaead54f5063f0e6dce0860e98:460893990,faadf1f70b0d4f109f405ad1d5956d56:386849326,1cd33ef5d4010310f16ca6522dabf79c:1294242793,99c2edc4ea0103100806a2a5c70673ea:-2093331036,7724794934f887509e3bc34b3da43c5a:-1790866547,9601b97a4ce44710bd65410ce5dcdf7a:-1327084503,6b83de703520031059ced2e73ef98102:-2127034458,67839e70a220031044e936889b96f3ff:-437767834</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pwd_process_4ff0c881bf220100710071a7bf0739fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pwd_process"><pwd_process action="INSERT_OR_UPDATE"><active>false</active><allow_verification_choice>false</allow_verification_choice><apply_to_all_users>true</apply_to_all_users><auto_gen_password>true</auto_gen_password><change>false</change><cred_store display_value="Local ServiceNow Instance">6e51033fbf020100710071a7bf0739e0</cred_store><description>Service-desk process for the local ServiceNow as a stand-alone credential-store</description><display_captcha>false</display_captcha><display_password>true</display_password><email_password_reset_url>false</email_password_reset_url><enable_security_score_notification>false</enable_security_score_notification><enabled_on_chatbot>false</enabled_on_chatbot><enrollment_reminder>false</enrollment_reminder><expiration_run_period/><expiration_run_start/><expiration_run_time/><expiration_run_time_zone/><expiration_schedule_frequency/><expiration_warn_days/><identification_type/><label>Service-Desk Password Reset for Local ServiceNow</label><min_verifications>1</min_verifications><name>Service-Desk Password Reset for Local ServiceNow</name><password_needs_reset>true</password_needs_reset><post_processor/><process_owner/><public_access>false</public_access><public_url/><pwd_validity_days/><redirect_url/><reset>true</reset><run_dayofmonth/><run_dayofweek/><run_start/><run_time/><run_type/><security_score/><send_email>true</send_email><send_expiration_reminder>false</send_expiration_reminder><sender_alias/><sys_class_name>pwd_process</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2013-07-11 18:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ff0c881bf220100710071a7bf0739fa</sys_id><sys_mod_count>19</sys_mod_count><sys_name>Service-Desk Password Reset for Local ServiceNow</sys_name><sys_package display_value="Password Reset" source="com.glideapp.password_reset">58917a8e18f632108bb255f46a373a4e</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pwd_process_4ff0c881bf220100710071a7bf0739fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-06 07:00:36</sys_updated_on><unlock_account>true</unlock_account><url_suffix/><user_experience_entry/><user_experience_failure/><user_experience_footer/><user_experience_header/><user_experience_success/></pwd_process><sys_translated_text action="delete_multiple" query="documentkey=4ff0c881bf220100710071a7bf0739fa"/></record_update>]]></payload>
+<payload_hash>559401970</payload_hash>
+<remote_update_set display_value="Default">f37000ab3bb98f1025db5f0f23e45aef</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-07-06 10:03:05</sys_created_on>
+<sys_id>bb7000ab3bb98f1025db5f0f23e45aef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19f363a968f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-07-06 10:03:05</sys_updated_on>
+<table/>
+<target_name>Service-Desk Password Reset for Local ServiceNow</target_name>
+<type>Password Reset Process</type>
+<update_domain>global</update_domain>
+<update_guid>bab61f57e6758f101be2b4a231afbf4a</update_guid>
+<update_guid_history>bab61f57e6758f101be2b4a231afbf4a:559401970,6893d6b00a2003103fc27a7042ed88ab:559401970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
