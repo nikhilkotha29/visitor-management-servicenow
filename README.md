@@ -24,7 +24,6 @@ Front desk staff can check in walk-in visitors or process pre-invited guests via
 - **QR-code invitations** — hosts pre-register visitors; a unique token is emailed and used for fast kiosk check-in
 - **Host approval workflow** — VIP/Contractor visitor types are held at "Awaiting Approval" until the host approves or rejects via Flow Designer's native approval mechanism
 - **Role-based security** — three custom roles (Front Desk, Host, Admin) enforce separation of duties via scripted ACLs, not just role checks
-- **Scripted REST API** — `/checkin` and `/checkout` endpoints for kiosk/external system integration, including QR-token-based lookup
 - **Automated Test Framework (ATF)** — 4 regression tests covering business logic and security
 - **Reporting dashboard** — live visitor count, visits by status/purpose, average visit duration
 - **Scheduled Job** — auto-checks-out stale visits after 12 hours
