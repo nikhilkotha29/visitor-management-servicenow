@@ -73,8 +73,9 @@ A few real issues found and fixed during development — included because workin
 
 ServiceNow Platform · Flow Designer · Service Portal (Widgets/AngularJS) · Scripted REST API · Automated Test Framework (ATF) · Business Rules · Script Includes · Access Control (ACL) · Scheduled Jobs · Reporting/Dashboards
 
-## Repository Structure
+## 📂 Repository Structure
 
+```text
 visitor-management-servicenow/
 ├── README.md
 ├── VMS_Project_Documentation.pdf
@@ -88,6 +89,7 @@ visitor-management-servicenow/
 │   └── dashboard.png
 └── diagrams/
     └── data-model-diagram.png
+```
 
 ## Setup / Import
 
