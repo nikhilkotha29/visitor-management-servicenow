@@ -1,4 +1,4 @@
-# Visitor Management System — ServiceNow Portfolio Project
+# Visitor Management System — ServiceNow Project
 
 A custom scoped application built on the ServiceNow platform to manage visitor check-in/check-out, host approvals for VIP/contractor visitors, and QR-code-based invitations — built to demonstrate CSA and CAD skills through a real, working application rather than certifications alone.
 
