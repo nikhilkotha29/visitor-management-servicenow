@@ -2,7 +2,7 @@
 
 A custom scoped application built on the ServiceNow platform to manage visitor check-in/check-out, host approvals for VIP/contractor visitors, and QR-code-based invitations — built to demonstrate CSA and CAD skills through a real, working application rather than certifications alone.
 
-**Live source (GitLab, synced via Studio Source Control):** [add link]
+**Live source (GitLab, synced via Studio Source Control):** [(https://gitlab.com/2912NIK/visitor-management-application)]
 
 ---
 
@@ -12,7 +12,7 @@ Front desk staff can check in walk-in visitors or process pre-invited guests via
 
 ## Data Model
 
-![Data model diagram](diagrams/data-model-diagram.png)
+![Data model diagram](diagrams/data-model-diagram.png.png)
 
 - **Visitor** — identity/profile of the person visiting (name, email, company, visitor type)
 - **Invitation** — created ahead of a visit by a host; carries a unique QR token; converts into a Visit on check-in
@@ -75,9 +75,9 @@ ServiceNow Platform · Flow Designer · Service Portal (Widgets/AngularJS) · Sc
 
 ## Repository Structure
 
-```
 visitor-management-servicenow/
 ├── README.md
+├── VMS_Project_Documentation.pdf
 ├── update-set/
 │   └── VMS_Update_Set.xml
 ├── screenshots/
@@ -88,7 +88,6 @@ visitor-management-servicenow/
 │   └── dashboard.png
 └── diagrams/
     └── data-model-diagram.png
-```
 
 ## Setup / Import
 
@@ -96,3 +95,12 @@ visitor-management-servicenow/
 2. Preview and commit the update set
 3. Assign the custom roles (`front_desk`, `host`, `admin`) to test users as needed
 4. Configure the Service Portal URL suffix and verify Flow Designer flows are active
+
+## 👨‍💻 Author
+
+**Nikhil Kotha**
+
+- ServiceNow Certified System Administrator (CSA)
+- ServiceNow Certified Application Developer (CAD)
+
+If you found this project useful, consider ⭐ starring the repository.
